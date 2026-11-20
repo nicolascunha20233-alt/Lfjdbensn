@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Exemplo de entrada para o instalador de mods do jogo (ModLinks.xml).
+     Troque o Link pela URL onde voce hospedar o zip (ex.: Release do GitHub)
+     e o SHA256 pelo hash do zip (certutil -hashfile arquivo.zip SHA256 / sha256sum arquivo.zip). -->
+<ModLinks xmlns="https://github.com/HollowKnight-Modding/HollowKnight.ModLinks/ModLinks"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Manifest>
+    <Name>JoJo Stands</Name>
+    <Description>Stands de JoJo para o Cavaleiro: Sombra, Star Platinum, Gold Experience e Purple Haze.</Description>
+    <Version>1.5.0.0</Version>
+    <Link SHA256="COLOQUE_O_SHA256_AQUI"><![CDATA[https://SEU-LINK/JoJoStandMod.zip]]></Link>
+    <Dependencies />
+  </Manifest>
+</ModLinks>
